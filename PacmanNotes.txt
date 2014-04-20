@@ -1,0 +1,55 @@
+Running over the ghost puts a double pacman on the map.
+Needs a random to take different paths.
+
+
+0 - blank space
+1 - dots
+2 - power-ups
+3 - Pac-man
+4 - Ghosts
+5 - Walls
+6 - Phantom Ghosts
+7 - GhostGate
+8 - Wallwalk
+
+------------------------------------
+
+pacman.x pacman.y
+ghost.x, ghost.y
+score
+fruit.x, fruit.y
+P*direction
+PacmanFace - Changes after Move
+
+------------------------------------
+
+ScanForDots()
+loadLvl1Array()  // Build in a switch for multiple levels
+printArray()
+printDebug()
+printLogo()
+IntroScreen()
+checkDirection()
+
+----------------------------------------------------------
+
+Lives = 3
+
+Points
+------
+dot = 10
+power-up = 20
+ghosts = 50
+fruit = 50
+
+Power-up changes ghost number to phantom ghost so Pac isn't killed
+
+-------------------------------------------------------------
+
+28 = width
+31 = Height
+
+868 = Array Points
+
+Hi-Score requires seperate file to R/W to and from
+
